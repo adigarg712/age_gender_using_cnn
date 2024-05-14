@@ -30,23 +30,6 @@ You can install the required packages using pip:
 ```bash
 pip install -r requirements.txt
 ```
-
-### Usage
-1. **Data Preparation**: 
-   - Download the UTKFace dataset from [Kaggle](https://www.kaggle.com/jangedoo/utkface-new) and place it in the `data/` directory.
-   - Preprocess the dataset using the `preprocess_data.py` script to prepare it for model training.
-
-2. **Model Training**:
-   - Run the `train_model.py` script to train the CNN model on the preprocessed dataset.
-   - The trained model will be saved in the `models/` directory.
-
-3. **Model Evaluation**:
-   - Use the `evaluate_model.py` script to evaluate the trained model on test data.
-   - This will provide accuracy metrics for gender and age prediction.
-
-4. **Inference**:
-   - Use the trained model to make predictions on new images using `predict.py`.
-
 ### References
 - Dataset: [UTKFace on Kaggle](https://www.kaggle.com/jangedoo/utkface-new)
 - TensorFlow: [tensorflow.org](https://www.tensorflow.org/)
